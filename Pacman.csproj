@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\bohda\Desktop\Pacman\Pacman.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CCA2A3C4-6327-42D0-B035-B0C410D3E5F7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>WindowsGame1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Pacman</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework.Game" />
+    <Reference Include="Microsoft.Xna.Framework.Graphics" />
+    <Reference Include="Microsoft.Xna.Framework" />
+    <Reference Include="MapData">
+      <HintPath>lib\MapData.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Obj.cs" />
+    <Compile Include="InterMission.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Map.cs" />
+    <Compile Include="Ready.cs" />
+    <Compile Include="GameOver.cs" />
+    <Compile Include="Dot.cs" />
+    <Compile Include="Items.cs" />
+    <Compile Include="HighScore.cs" />
+    <Compile Include="Pacman.cs" />
+    <Compile Include="Lives.cs" />
+    <Compile Include="DirectionEnum.cs" />
+    <Compile Include="GameState.cs" />
+    <Compile Include="GhostMode.cs" />
+    <Compile Include="GhostIdent.cs" />
+    <Compile Include="MapTileType.cs" />
+    <Compile Include="Bonus.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Score.cs" />
+    <Compile Include="PacmanGame.cs" />
+    <Compile Include="Level.cs" />
+    <Compile Include="Intro.cs" />
+    <Compile Include="Ghost.cs" />
+    <Compile Include="Serve.cs" />
+    <Compile Include="Timer.cs" />
+    <Compile Include="Background.cs" />
+    <Compile Include="PacmanDraw.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Microsoft\Xna\Framework.RuntimeProfile" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

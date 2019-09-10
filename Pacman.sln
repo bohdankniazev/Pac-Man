@@ -1,0 +1,20 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsGame1", "Pacman.csproj", "{CCA2A3C4-6327-42D0-B035-B0C410D3E5F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCA2A3C4-6327-42D0-B035-B0C410D3E5F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA2A3C4-6327-42D0-B035-B0C410D3E5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA2A3C4-6327-42D0-B035-B0C410D3E5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA2A3C4-6327-42D0-B035-B0C410D3E5F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
